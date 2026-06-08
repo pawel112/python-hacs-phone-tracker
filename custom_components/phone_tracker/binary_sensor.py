@@ -41,7 +41,7 @@ class PhoneConnectedSensor(BinarySensorEntity):
         self._last_seen: datetime | None = None
         self._attr_is_on = None
         self._attr_unique_id = f"phone_tracker_{self._ip.replace('.', '_')}"
-        self._attr_name = "Połączono"
+        self._attr_name = ""
 
     @property
     def icon(self) -> str:
