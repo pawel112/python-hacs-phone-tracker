@@ -1,0 +1,31 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Phone Tracker",
+        "description": "Dodaj urządzenie wykrywane przez ping WiFi",
+        "data": {
+          "device_name": "Nazwa urządzenia (np. Telefon )",
+          "ip_address": "Adres IP urządzenia (np. 192.168.1.X)"
+        }
+      }
+    },
+    "error": {
+      "invalid_ip": "Nieprawidłowy format IP. Użyj formatu 192.168.1.X"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Ustawienia Phone Tracker",
+        "data": {
+          "device_name": "Nazwa urządzenia",
+          "ip_address": "Adres IP urządzenia"
+        }
+      }
+    },
+    "error": {
+      "invalid_ip": "Nieprawidłowy format IP. Użyj formatu 192.168.1.X"
+    }
+  }
+}

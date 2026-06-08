@@ -1,0 +1,11 @@
+{
+  "domain": "phone_tracker",
+  "name": "Phone Tracker",
+  "version": "1.0.0",
+  "codeowners": ["@pawel112"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/pawel112/python-hacs-phone-tracker",
+  "iot_class": "local_polling",
+  "requirements": []
+}
